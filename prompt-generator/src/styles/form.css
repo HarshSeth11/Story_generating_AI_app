@@ -1,0 +1,36 @@
+.prompt1{
+    margin-top: 2rem;
+    width: 89%;
+    height: 2.5rem;
+    font-size: 1rem;
+    border: 0 solid #d9d9e3;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .5);
+    padding: 0 10px;
+}
+
+
+.btnn{
+    padding: 0.6rem;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: 0 solid #d9d9e3;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .5);
+}
+
+.textarea{
+    margin-top: 1rem;
+}
+
+#story{
+    border: 0 solid #d9d9e3;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .5);
+    font-size: 1rem;
+    padding: 5px;
+}

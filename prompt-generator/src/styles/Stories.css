@@ -1,0 +1,35 @@
+.container1{
+    display: flex;
+    width: 95%;
+    margin: 0.5rem 10px;
+    background-color: rgb(97, 97, 97);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow-x:hidden;
+}
+
+.id{
+    padding: 5px 2px;
+    font-weight: 500;
+}
+
+.prompt{
+    /* background-color: rgb(197, 201, 205); */
+    padding: 5px;
+    text-align: left;
+}
+
+.upvote{
+    margin-left: auto;
+    font-size: 0.7rem;
+}
+
+#icon{
+    font-size: 1rem;
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+}
