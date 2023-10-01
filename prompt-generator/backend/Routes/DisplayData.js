@@ -3,10 +3,10 @@ const ConnectionDB = require('../db');
 const router = express.Router();
 
 
-router.post('/getData', (req,res) => {
+router.post('/getData', async (req,res) => {
     try {
         // console.log(global.prompt_data);
-        ConnectionDB();
+        await ConnectionDB();
         res.send(global.prompt_data);
     } catch (error) {
         console.log("somthing went wrong");

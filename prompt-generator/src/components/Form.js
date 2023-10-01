@@ -31,13 +31,13 @@ export default function Form() {
     }
     if (json.success) {
       alert("Success");
-      // typewriter();
-      navigate("/");
+      window.location.reload(false)
     }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setValue({...value, Story: "Loading..."});
     let response = await fetch("http://localhost:5000/ask", {
       method: "POST",
       headers: {
@@ -56,7 +56,6 @@ export default function Form() {
       alert("Something went wrong");
     }
     if (json.success) {
-      // alert("Success")
       navigate("/");
     }
   };

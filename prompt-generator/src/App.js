@@ -1,9 +1,5 @@
 import "./App.css";
-import LeaderBoard from "./components/LeaderBoard";
-import Form from "./components/Form";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import TextArea from "./components/TextArea";
-import { useState } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
